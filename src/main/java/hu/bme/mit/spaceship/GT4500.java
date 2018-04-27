@@ -95,7 +95,7 @@ public class GT4500 implements SpaceShip {
     }
 */
 
-	if(firingMode==SINGLE)
+	if(firingMode==FiringMode.SINGLE)
 	{
 		if (wasPrimaryFiredLast) {
           // try to fire the secondary first
